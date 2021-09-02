@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: JdbcService
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot2020?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+#开启调试配置，看哪些自动配置了，哪些没有自动配置
+debug: false
